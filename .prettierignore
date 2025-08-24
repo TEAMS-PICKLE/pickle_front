@@ -1,0 +1,14 @@
+.next
+node_modules
+public
+build
+.DS_Store
+*.md
+*.mdx
+*.html
+*.log
+.cache
+.vercel
+.output
+.next
+out
