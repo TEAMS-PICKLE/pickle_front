@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Header() {
   return (
@@ -8,13 +9,13 @@ export default function Header() {
       {/* Auth Menu */}
       <div className="flex items-center gap-x-2">
         {/* 로그인 버튼 */}
-        <button className="px-6 py-2 rounded-full border border-teal-400 text-teal-400 font-bold">
+        <Link href="/auth/login" className="px-6 py-2 rounded-full border border-teal-400 text-teal-400 font-bold">
           로그인
-        </button>
+        </Link>
         {/* 회원가입 버튼 */}
-        <button className="px-6 py-2 rounded-full bg-teal-400 text-white font-bold">
+        <Link href="/auth/join" className="px-6 py-2 rounded-full bg-teal-400 text-white font-bold">
           회원가입
-        </button>
+        </Link>
       </div>
     </header>
   );
