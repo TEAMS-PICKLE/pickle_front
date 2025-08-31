@@ -1,1 +1,1 @@
-export type SignUpStep = 'terms' | 'email';
+export type SignUpStep = 'terms' | 'email' | 'password' | 'email-auth';
