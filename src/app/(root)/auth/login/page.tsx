@@ -79,7 +79,7 @@ export default function Login() {
             </label>
 
             <Link
-              href="/auth/passwordless"
+              href="/auth/passwordless-login"
               className="text-gray-800 underline underline-offset-2 hover:opacity-80"
             >
               비밀번호 없이 로그인
