@@ -1,10 +1,14 @@
 export default function Navigation() {
   return (
+    /**
+     * - 프로필
+     */
     <aside className="h-screen border-r border-gray-200 p-4 space-y-3 bg-white flex flex-col">
       <div className="flex items-center gap-2 text-gray-800 font-semibold">
         <span className="inline-flex items-center justify-center w-6 h-6 rounded bg-gray-100">Ⅱ</span>
         프로젝트 명
       </div>
+      {/** 메뉴 */}
       <nav className="text-sm text-gray-700 space-y-1 pt-2 flex-1 overflow-y-auto">
         <a className="block px-2 py-1 rounded hover:bg-gray-50">알림함</a>
         <div>
